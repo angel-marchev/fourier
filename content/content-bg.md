@@ -1,23 +1,23 @@
-Fourier transforms are a tool used in a whole bunch of different things. This is an explanation of what a Fourier transform does, and some different ways it can be useful. And how you can make pretty things with it, like this thing:
+Преобразуванията на Фурие са инструмент, използван в редица анализ. Тук е обяснение за това, което прави преобразуването на Фурие и някои възможни начини, така че да бъде полезно. И как можете да направите хубави онагледявания с него, както това:
 
 <canvas id="self-draw" class="sketch" width=500 height=500></canvas>
 
-I'm going to explain how that animation works, and along the way explain Fourier transforms!
+Ще обясня как работи тази анимация и същевременно ще обясня трансформирането на Фурие!
 
-By the end you should have a good idea about
-- What a Fourier transform does
-- Some practical uses of Fourier transforms
-- Some pointless but cool uses of Fourier transforms
+Накрая трябва да имате добра представа за
+- Какво прави преобразуването на Фурие
+- Някои практически приложения на преобразуванията на Фурие
+- Някои безсмислени, но готини приложения на преобразуванията на Фурие
 
-We're going to leave the mathematics and equations out of it for now. There's a bunch of interesting maths behind it, but it's better to start with what it actually does, and why you'd want to use it first. If you want to know more about the how, there's some further reading suggestions below!
+Засега ще оставим математиката и уравненията извън нея. Има куп интересни математики зад него, но е по-добре да започнете с това, което всъщност прави, и защо първо бихте искали да го използвате. Ако искате да научите повече за това как, има някои допълнителни предложения за четене по-долу!
 
-## So what is this thing?
+## И какво е това нещо?
 
-Put simply, the Fourier transform is a way of splitting something up into a bunch of sine waves. As usual, the name comes from some person who lived a long time ago called Fourier.
+Казано по-просто, преобразуването на Фурие е начин за разделяне на нещо на куп синусоиди. Както обикновено, името идва от някой човек, живял отдавна, наречен Фурие.
 
-Let’s start with some simple examples and work our way up. First up we're going to look at waves - patterns that repeat over time.
+Нека да започнем с няколко прости примера и да продължим напред. Първо ще разгледаме вълните - модели, които се повтарят с течение на времето.
 
-Here’s an example wave:
+Ето примерна вълна:
 
 <canvas id="combo-sine-wave" class="sketch" width=500 height=300></canvas>
 
